@@ -6,6 +6,7 @@ export async function GET() {
   const { data, error } = await (await supabase)
     .from("test_tiles")
     .select("*")
+    .eq("id", 1)
     .single();
 
   if (error) {
