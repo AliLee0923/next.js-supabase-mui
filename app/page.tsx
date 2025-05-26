@@ -32,7 +32,10 @@ export default function Home() {
     <>
       <CssBaseline />
       <Container maxWidth="sm" sx={{ mt: 4 }}>
-        <Card elevation={1} sx={{ borderRadius: "24px" }}>
+        <Card
+          elevation={1}
+          sx={{ borderRadius: "24px", backgroundColor: "#f8f1f6" }}
+        >
           <Box
             sx={{
               position: "relative",
